@@ -12,7 +12,7 @@ function App() {
           api_key: 'f57bb8d0a926294e80e8198ac58085b4',
         }
       });
-      setShows(res.data.results);
+      setShows(res.data.results); 
   
       console.log(res.data.results); // shows array'ını konsola yazdırır
     } catch (err) {
